@@ -2,7 +2,7 @@
 //  ControlFlow.h
 //  FirstStart
 //
-//  Created by Админ on 28.12.15.
+//  Created by Melentyev on 28.12.15.
 //  Copyright © 2015 Melentyev. All rights reserved.
 //
 
@@ -14,8 +14,21 @@
 */
 int controlFlowFunc(int part){
     
+    // for in statement
+    NSArray *array = @[ @"First", @"Second", @"Third"];
+    for (NSString *str in array) {
+        NSLog(@"Array contains: %@", str);
+    }
     
+    // ternary operator (a > b) ? NSLOG() : NSLOG();
     
-    return part;
+    switch (part) {
+        case 5:
+            return part;
+            break;
+        default:
+            return part;
+            break;
+    }
 }
 #endif

@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Poinet operator: %d, %d", i, * j);
         NSLog(@"Type casting example: %d, %f", first, third);
         NSLog(@"Factorial of 5 is: %d", canculateFactorial(5));
-        NSLog(@"Control Flow: %d", controlFlowFunc(5));
+        NSLog(@"Control Flow: %d", controlFlowFunc(7));
     }
     return 0;
 }
