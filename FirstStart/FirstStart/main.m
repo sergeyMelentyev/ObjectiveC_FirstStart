@@ -19,12 +19,16 @@ typedef struct {
     MyPoint endPoint;
 } MyLine;
 
-// defining an enum of type NSUInteger with three values
-typedef enum MyEnum : NSUInteger {
+// defining an enum "MyEnum" of type "NSUInteger" with three values using macros
+typedef NS_ENUM(NSUInteger, MyEnum) {
     MyFirstValue,
     MySecondValue,
     MyThirdValue
-} MyEnum;
+};
+
+// pointer "*j" points to the address in RAM where variable "i" is located
+int i = 1;
+int * j = &i;    // declair a pointer "j" and set it to the adress in RAM of "i"
 
 int main(int argc, const char * argv[]) {
     
@@ -42,6 +46,7 @@ int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         NSLog(@"%f, %f", pointA.x, pointA.y);   // format specifiers, values
+        NSLog(@"%d, %d", i, * j);    // add "*" to print value, or will get an adress in RAM
     }
     return 0;
 }
