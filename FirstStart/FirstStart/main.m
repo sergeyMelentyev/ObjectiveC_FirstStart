@@ -6,8 +6,9 @@
 //  Copyright © 2015 Melentyev. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "FactorialModule.h"     // import objective-c file with function
+#import <Foundation/Foundation.h> //  Will search all system files
+#import "FactorialModule.h"     //  Will search only files in project folder 
+#import "ControlFlow.h"
 
 /*
  Defining a structure with type definition
@@ -60,7 +61,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"point a, x: %f, y: %f", pointA.x, pointA.y);
         NSLog(@"Poinet operator: %d, %d", i, * j);
         NSLog(@"Type casting example: %d, %f", first, third);
-        canculateFactorial(5);
+        NSLog(@"Factorial of 5 is: %d", canculateFactorial(5));
+        NSLog(@"Control Flow: %d", controlFlowFunc(5));
     }
     return 0;
 }

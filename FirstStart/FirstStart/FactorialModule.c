@@ -8,7 +8,7 @@
 
 /*
  Function declaration that returns int and takes int as an argument
- */
+*/
 int canculateFactorial(int number){
     int result = 1;
     for (int i = 1; i <= number; i++) {
