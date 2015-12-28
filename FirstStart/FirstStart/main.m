@@ -7,35 +7,42 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FactorialModule.h"     // import objective-c file with function
 
-// defining a structure with type definition
-typedef struct {
+/*
+ Defining a structure with type definition
+*/
+ typedef struct {
     float x;
     float y;
 } MyPoint;
-
 typedef struct {
     MyPoint startPoint;
     MyPoint endPoint;
 } MyLine;
 
-// defining an enum "MyEnum" of type "NSUInteger" with three values using macros
+/*
+ Defining an enum "MyEnum" of type "NSUInteger" with three values using macros
+*/
 typedef NS_ENUM(NSUInteger, MyEnum) {
     MyFirstValue,
     MySecondValue,
     MyThirdValue
 };
 
-// pointer "*j" points to the address in RAM where variable "i" is located
+/*
+ Pointer "*j" points to the address in RAM where variable "i" is located
+*/
 int i = 1;
-int * j = &i;    // "*" a pointer operator, "&" an address to the RAM operator
+int * j = &i;    // integer pointer "*" and an address to the RAM operator "&"
 
+/*
+ Main function that returs int and takes arguments
+*/
 int main(int argc, const char * argv[]) {
-    
-    // type casting
     int first = 1;
     int second = 2;
-    float third = (float)first / (float)second;
+    float third = (float)first / (float)second; // type casting
     
     MyPoint pointA;   // variable "pointA" of type myPoint
     pointA.x = 10.1;    // assigning a value to a struct
@@ -50,9 +57,10 @@ int main(int argc, const char * argv[]) {
     line.endPoint = pointB;
     
     @autoreleasepool {
-        NSLog(@"point a, x: %f, y: %f", pointA.x, pointA.y);   // format specifiers, values
-        NSLog(@"%d, %d", i, * j);    // add "*" to print an actual value
-        NSLog(@"%d, %f", first, third); // type casting console
+        NSLog(@"point a, x: %f, y: %f", pointA.x, pointA.y);
+        NSLog(@"Poinet operator: %d, %d", i, * j);
+        NSLog(@"Type casting example: %d, %f", first, third);
+        canculateFactorial(5);
     }
     return 0;
 }

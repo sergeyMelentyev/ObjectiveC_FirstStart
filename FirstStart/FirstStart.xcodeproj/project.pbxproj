@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80AF2E631C3125A400279E76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AF2E621C3125A400279E76 /* main.m */; };
+		80AF2E6F1C317DC000279E76 /* FactorialModule.c in Sources */ = {isa = PBXBuildFile; fileRef = 80AF2E6D1C317DC000279E76 /* FactorialModule.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		80AF2E5F1C3125A400279E76 /* FirstStart */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstStart; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AF2E621C3125A400279E76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AF2E6D1C317DC000279E76 /* FactorialModule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FactorialModule.c; sourceTree = "<group>"; };
+		80AF2E6E1C317DC000279E76 /* FactorialModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactorialModule.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				80AF2E621C3125A400279E76 /* main.m */,
+				80AF2E6D1C317DC000279E76 /* FactorialModule.c */,
+				80AF2E6E1C317DC000279E76 /* FactorialModule.h */,
 			);
 			path = FirstStart;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80AF2E631C3125A400279E76 /* main.m in Sources */,
+				80AF2E6F1C317DC000279E76 /* FactorialModule.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
