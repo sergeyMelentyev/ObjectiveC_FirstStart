@@ -28,9 +28,14 @@ typedef NS_ENUM(NSUInteger, MyEnum) {
 
 // pointer "*j" points to the address in RAM where variable "i" is located
 int i = 1;
-int * j = &i;    // declair a pointer "j" and set it to the adress in RAM of "i"
+int * j = &i;    // "*" a pointer operator, "&" an address to the RAM operator
 
 int main(int argc, const char * argv[]) {
+    
+    // type casting
+    int first = 1;
+    int second = 2;
+    float third = (float)first / (float)second;
     
     MyPoint pointA;   // variable "pointA" of type myPoint
     pointA.x = 10.1;    // assigning a value to a struct
@@ -45,8 +50,9 @@ int main(int argc, const char * argv[]) {
     line.endPoint = pointB;
     
     @autoreleasepool {
-        NSLog(@"%f, %f", pointA.x, pointA.y);   // format specifiers, values
-        NSLog(@"%d, %d", i, * j);    // add "*" to print value, or will get an adress in RAM
+        NSLog(@"point a, x: %f, y: %f", pointA.x, pointA.y);   // format specifiers, values
+        NSLog(@"%d, %d", i, * j);    // add "*" to print an actual value
+        NSLog(@"%d, %f", first, third); // type casting console
     }
     return 0;
 }
