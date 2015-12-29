@@ -58,6 +58,16 @@ int main(int argc, const char * argv[]) {
     line.endPoint = pointB;
     
     @autoreleasepool {
+        NSMutableString *myString = [[NSMutableString alloc] init];
+        [myString appendString:@"NSMutableString mutable"];
+        NSMutableString *anotherString = [NSMutableString stringWithString:@"NSMutableString"];
+        NSString *staticString = @"NSString static";
+        NSArray *anArray = @[@"One", @"Two", @"Three"];
+        NSMutableArray *anMutableArray = [@[@"One", @"Two", @"Three"] mutableCopy];
+        NSDictionary *aDictionary = @{@"keyOne": @"valueOne", @"keyTwo": @"valueTwo"};
+        
+        
+        NSLog(@"%@, %@, %@, %@, %@, %@", myString, anotherString, staticString, anArray[0], anMutableArray[1], aDictionary);
         NSLog(@"point a, x: %f, y: %f", pointA.x, pointA.y);
         NSLog(@"Poinet operator: %d, %d", i, * j);
         NSLog(@"Type casting example: %d, %f", first, third);

@@ -245,6 +245,7 @@
 				80AF2E681C3125A400279E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

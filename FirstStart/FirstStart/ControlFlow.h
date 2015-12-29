@@ -6,8 +6,8 @@
 //  Copyright © 2015 Melentyev. All rights reserved.
 //
 
-#ifndef ControlFlow_h
-#define ControlFlow_h
+#ifndef ControlFlow_h   // check at a copile time if ControllFlow is defined
+#define ControlFlow_h   // if not defined than define it here
 
 /*
  Control flow statements
