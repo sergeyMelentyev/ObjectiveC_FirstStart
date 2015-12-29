@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h> //  Will search all system files
-#import "FactorialModule.h"     //  Will search only files in project folder 
+#import <Cocoa/Cocoa.h>
+#import "FactorialModule.h"     //  Will search only files in project folder
 #import "ControlFlow.h"
 
 /*
