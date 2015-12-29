@@ -14,6 +14,11 @@
 @end
 
 @implementation Mammal
+
+
+/*
+ Ganerate acsessors
+*/
 @synthesize furColor;
 @synthesize bodyTemperature;
 @synthesize happy;

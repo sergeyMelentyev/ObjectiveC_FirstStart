@@ -26,5 +26,13 @@
 // (return value) method name: (parameter type) variable name;
 -(void) nurseYoung: (Mammal *) young;
 
+/*
+ Initializers, usually call only one. Return data type "id" means can return anything
+*/
+-(id)init;
+-(id)initWithFurColor: (NSColor *)furColor;
+-(id)initWithFurColor:(NSColor *)furColor parent:(Mammal *)parent;
+
++(id)mammal;
 
 @end
