@@ -40,6 +40,7 @@ int * j = &i;    // integer pointer "*" and an address to the RAM operator "&"
 
 /*
  Main function that returs int and takes arguments
+ Argument count - "argc", array of values - "argv"
 */
 int main(int argc, const char * argv[]) {
     int first = 1;
