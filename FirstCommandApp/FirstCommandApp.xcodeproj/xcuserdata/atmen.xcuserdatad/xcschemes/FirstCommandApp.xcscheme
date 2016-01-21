@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "80AF2E5E1C3125A400279E76"
-               BuildableName = "FirstStart"
-               BlueprintName = "FirstStart"
-               ReferencedContainer = "container:FirstStart.xcodeproj">
+               BlueprintIdentifier = "80C692B31C50D240005E3C2C"
+               BuildableName = "FirstCommandApp"
+               BlueprintName = "FirstCommandApp"
+               ReferencedContainer = "container:FirstCommandApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80AF2E5E1C3125A400279E76"
-            BuildableName = "FirstStart"
-            BlueprintName = "FirstStart"
-            ReferencedContainer = "container:FirstStart.xcodeproj">
+            BlueprintIdentifier = "80C692B31C50D240005E3C2C"
+            BuildableName = "FirstCommandApp"
+            BlueprintName = "FirstCommandApp"
+            ReferencedContainer = "container:FirstCommandApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80AF2E5E1C3125A400279E76"
-            BuildableName = "FirstStart"
-            BlueprintName = "FirstStart"
-            ReferencedContainer = "container:FirstStart.xcodeproj">
+            BlueprintIdentifier = "80C692B31C50D240005E3C2C"
+            BuildableName = "FirstCommandApp"
+            BlueprintName = "FirstCommandApp"
+            ReferencedContainer = "container:FirstCommandApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80AF2E5E1C3125A400279E76"
-            BuildableName = "FirstStart"
-            BlueprintName = "FirstStart"
-            ReferencedContainer = "container:FirstStart.xcodeproj">
+            BlueprintIdentifier = "80C692B31C50D240005E3C2C"
+            BuildableName = "FirstCommandApp"
+            BlueprintName = "FirstCommandApp"
+            ReferencedContainer = "container:FirstCommandApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
