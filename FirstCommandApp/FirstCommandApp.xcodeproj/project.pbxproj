@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80C692B81C50D240005E3C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692B71C50D240005E3C2C /* main.m */; };
+		80C692BF1C50F66A005E3C2C /* Struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692BE1C50F66A005E3C2C /* Struct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		80C692B41C50D240005E3C2C /* FirstCommandApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCommandApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C692B71C50D240005E3C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80C692BE1C50F66A005E3C2C /* Struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Struct.m; sourceTree = "<group>"; };
+		80C692C11C50F6AA005E3C2C /* DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		80C692B61C50D240005E3C2C /* FirstCommandApp */ = {
 			isa = PBXGroup;
 			children = (
+				80C692C01C50F675005E3C2C /* Headers */,
+				80C692C21C50F6CB005E3C2C /* DataTypes */,
 				80C692B71C50D240005E3C2C /* main.m */,
 			);
 			path = FirstCommandApp;
+			sourceTree = "<group>";
+		};
+		80C692C01C50F675005E3C2C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				80C692C11C50F6AA005E3C2C /* DataTypes.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		80C692C21C50F6CB005E3C2C /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				80C692BE1C50F66A005E3C2C /* Struct.m */,
+			);
+			name = DataTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C692BF1C50F66A005E3C2C /* Struct.m in Sources */,
 				80C692B81C50D240005E3C2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
