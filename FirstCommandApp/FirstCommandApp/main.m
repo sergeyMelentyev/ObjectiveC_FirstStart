@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Struct.m"
+#import "StructDataType.m"
+#import "EnumDataType.m"
 
 int main(int argc, const char * argv[]) {
     

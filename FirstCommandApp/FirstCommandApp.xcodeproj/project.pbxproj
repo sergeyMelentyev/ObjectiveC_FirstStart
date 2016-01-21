@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		80C692B81C50D240005E3C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692B71C50D240005E3C2C /* main.m */; };
-		80C692BF1C50F66A005E3C2C /* Struct.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692BE1C50F66A005E3C2C /* Struct.m */; };
+		80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C31C5102A9005E3C2C /* EnumDataType.m */; };
+		80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C51C5102D1005E3C2C /* StructDataType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,9 @@
 /* Begin PBXFileReference section */
 		80C692B41C50D240005E3C2C /* FirstCommandApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCommandApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C692B71C50D240005E3C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80C692BE1C50F66A005E3C2C /* Struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Struct.m; sourceTree = "<group>"; };
 		80C692C11C50F6AA005E3C2C /* DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
+		80C692C31C5102A9005E3C2C /* EnumDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumDataType.m; sourceTree = "<group>"; };
+		80C692C51C5102D1005E3C2C /* StructDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructDataType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 		80C692C21C50F6CB005E3C2C /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
-				80C692BE1C50F66A005E3C2C /* Struct.m */,
+				80C692C31C5102A9005E3C2C /* EnumDataType.m */,
+				80C692C51C5102D1005E3C2C /* StructDataType.m */,
 			);
 			name = DataTypes;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C692BF1C50F66A005E3C2C /* Struct.m in Sources */,
+				80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */,
+				80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */,
 				80C692B81C50D240005E3C2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
