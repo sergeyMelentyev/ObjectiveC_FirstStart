@@ -25,8 +25,13 @@ int main(int argc, const char * argv[]) {
     pointB.x = 3;
     pointB.y = 3;
     
+    // Pointer data type
+    char frstValPoint = 10;
+    char * sndValPoint = &frstValPoint;                 // assign an address of var "frstValPoint"
+    
     @autoreleasepool {
         NSLog(@"Line from point A - x:%d y:%d to point B - x:%d y:%d", pointA.x, pointA.y, pointB.x, pointB.y);
+        NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
     }
     return 0;
 }

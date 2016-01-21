@@ -8,4 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-// Daclare an Enum
+// Daclare an enum MyEnum of type NSUInteger
+typedef NS_ENUM(NSUInteger, MyEnum){
+    MyFirstNumber = 10,
+    MySecondNumber = 20,
+    MyThirdNumber = 30
+};
