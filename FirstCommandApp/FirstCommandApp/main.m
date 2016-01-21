@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
 
@@ -20,18 +21,20 @@ int main(int argc, const char * argv[]) {
     // Struct data type
     MyPointStruct pointA;                               // declare a var pointA of type MyPointStruct
     MyPointStruct pointB;                               // declare a var pointB of type MyPointStruct
-    pointA.x = 1;                                       // declare variables x and y inside each struct
-    pointA.y = 2;
+    pointA.x = 1;                                       // declare variables x inside each struct
     pointB.x = 3;
-    pointB.y = 3;
+    
+    float z = ((float)pointA.x / (float)pointB.x);      // type casting
     
     // Pointer data type
     char frstValPoint = 10;
     char * sndValPoint = &frstValPoint;                 // assign an address of var "frstValPoint"
     
     @autoreleasepool {
-        NSLog(@"Line from point A - x:%d y:%d to point B - x:%d y:%d", pointA.x, pointA.y, pointB.x, pointB.y);
+        NSLog(@"Line from point A - x:%d to point B - x:%d, float value is %f", pointA.x, pointB.x, z);
         NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
+        NSLog(@"Factorial of number 15 is: %d", canculateFactorial(15));
+        
     }
     return 0;
 }

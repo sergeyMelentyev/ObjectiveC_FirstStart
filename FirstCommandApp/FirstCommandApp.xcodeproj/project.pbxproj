@@ -11,6 +11,7 @@
 		80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C31C5102A9005E3C2C /* EnumDataType.m */; };
 		80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C51C5102D1005E3C2C /* StructDataType.m */; };
 		80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C71C5109B1005E3C2C /* PointerDataType.m */; };
+		80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C91C511BF6005E3C2C /* FunctionDataType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		80C692C31C5102A9005E3C2C /* EnumDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumDataType.m; sourceTree = "<group>"; };
 		80C692C51C5102D1005E3C2C /* StructDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructDataType.m; sourceTree = "<group>"; };
 		80C692C71C5109B1005E3C2C /* PointerDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerDataType.m; sourceTree = "<group>"; };
+		80C692C91C511BF6005E3C2C /* FunctionDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionDataType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				80C692C31C5102A9005E3C2C /* EnumDataType.m */,
 				80C692C51C5102D1005E3C2C /* StructDataType.m */,
 				80C692C71C5109B1005E3C2C /* PointerDataType.m */,
+				80C692C91C511BF6005E3C2C /* FunctionDataType.m */,
 			);
 			name = DataTypes;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */,
 				80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */,
+				80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */,
 				80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */,
 				80C692B81C50D240005E3C2C /* main.m in Sources */,
 			);
