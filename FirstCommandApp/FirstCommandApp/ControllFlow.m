@@ -1,14 +1,11 @@
 //
-//  DataTypes.h
+//  ControllFlow.m
 //  FirstCommandApp
 //
 //  Created by Melentyev on 21.01.16.
 //  Copyright © 2016 Melentyev. All rights reserved.
 //
 
-#ifndef DataTypes_h
-#define DataTypes_h
+#import <Foundation/Foundation.h>
 
-extern int canculateFactorial(int number);
-
-#endif
+// fast enumeration

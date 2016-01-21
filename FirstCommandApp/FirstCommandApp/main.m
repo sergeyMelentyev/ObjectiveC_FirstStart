@@ -10,6 +10,7 @@
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
+#define ANYMACRONAME 10                                 // preprocessor macros
 
 int main(int argc, const char * argv[]) {
     
@@ -29,6 +30,10 @@ int main(int argc, const char * argv[]) {
     // Pointer data type
     char frstValPoint = 10;
     char * sndValPoint = &frstValPoint;                 // assign an address of var "frstValPoint"
+    
+    // Ternary operator
+    char a = 10;
+    (a == 10) ? a++ : a--;
     
     @autoreleasepool {
         NSLog(@"Line from point A - x:%d to point B - x:%d, float value is %f", pointA.x, pointB.x, z);
