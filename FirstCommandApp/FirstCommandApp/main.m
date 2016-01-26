@@ -20,8 +20,8 @@ int main(int argc, const char * argv[]) {
     // double = 64 bits = 8 bytes
     
     // Struct data type
-    MyPointStruct pointA;                               // declare a var pointA of type MyPointStruct
-    MyPointStruct pointB;                               // declare a var pointB of type MyPointStruct
+    MyPointStruct pointA;                               // declare var pointA of type MyPointStruct
+    MyPointStruct pointB;                               // declare var pointB of type MyPointStruct
     pointA.x = 1;                                       // declare variables x inside each struct
     pointB.x = 3;
     
@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
     (a == 10) ? a++ : a--;
     
     @autoreleasepool {
-        NSLog(@"Line from point A - x:%d to point B - x:%d, float value is %f", pointA.x, pointB.x, z);
+        NSLog(@"Line from point A - x:%d to B - x:%d, float value is %f", pointA.x, pointB.x, z);
         NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
         NSLog(@"Factorial of number 15 is: %d", canculateFactorial(15));
         
