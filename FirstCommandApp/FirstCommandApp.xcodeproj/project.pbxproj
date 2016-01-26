@@ -13,7 +13,7 @@
 		80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C71C5109B1005E3C2C /* PointerDataType.m */; };
 		80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C91C511BF6005E3C2C /* FunctionDataType.m */; };
 		80C692CC1C51277E005E3C2C /* ControllFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692CB1C51277E005E3C2C /* ControllFlow.m */; };
-		80CBC6F71C5765D80014D713 /* ClassesBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC6F61C5765D80014D713 /* ClassesBasic.m */; };
+		80CBC6FA1C576EFE0014D713 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC6F91C576EFE0014D713 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,8 +37,8 @@
 		80C692C71C5109B1005E3C2C /* PointerDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerDataType.m; sourceTree = "<group>"; };
 		80C692C91C511BF6005E3C2C /* FunctionDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionDataType.m; sourceTree = "<group>"; };
 		80C692CB1C51277E005E3C2C /* ControllFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllFlow.m; sourceTree = "<group>"; };
-		80CBC6F51C5765D80014D713 /* ClassesBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesBasic.h; sourceTree = "<group>"; };
-		80CBC6F61C5765D80014D713 /* ClassesBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassesBasic.m; sourceTree = "<group>"; };
+		80CBC6F81C576EFE0014D713 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		80CBC6F91C576EFE0014D713 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		80CBC6F41C57659A0014D713 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				80CBC6F51C5765D80014D713 /* ClassesBasic.h */,
-				80CBC6F61C5765D80014D713 /* ClassesBasic.m */,
+				80CBC6F81C576EFE0014D713 /* Fraction.h */,
+				80CBC6F91C576EFE0014D713 /* Fraction.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -172,9 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80CBC6FA1C576EFE0014D713 /* Fraction.m in Sources */,
 				80C692CC1C51277E005E3C2C /* ControllFlow.m in Sources */,
 				80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */,
-				80CBC6F71C5765D80014D713 /* ClassesBasic.m in Sources */,
 				80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */,
 				80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */,
 				80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */,

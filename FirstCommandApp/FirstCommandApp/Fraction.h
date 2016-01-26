@@ -1,5 +1,5 @@
 //
-//  ClassesBasic.h
+//  Fraction.h
 //  FirstCommandApp
 //
 //  Created by Melentyev on 26.01.16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ClassesBasic : NSObject
+@interface Fraction : NSObject
 -(void) print;
 -(void) setNumerator: (int) n;
 -(void) setDenominator: (int) d;

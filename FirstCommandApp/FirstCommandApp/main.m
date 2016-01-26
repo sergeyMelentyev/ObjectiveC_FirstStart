@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Fraction.h"
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
@@ -40,6 +41,19 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
         NSLog(@"Factorial of number 15 is: %d", canculateFactorial(15));
         
+        Fraction *myFraction;
+        myFraction = [Fraction alloc];
+        myFraction = [myFraction init];
+        [myFraction setNumerator: 1];
+        [myFraction setDenominator: 3];
+        NSLog(@"The value of myFraction is:");
+        [myFraction print];
+        
     }
     return 0;
 }
+
+
+
+
+
