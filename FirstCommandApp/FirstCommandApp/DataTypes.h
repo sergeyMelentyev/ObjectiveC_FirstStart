@@ -9,6 +9,6 @@
 #ifndef DataTypes_h
 #define DataTypes_h
 
-extern int canculateFactorial(int number);
+extern int canculateFactorial (int number);
 
 #endif

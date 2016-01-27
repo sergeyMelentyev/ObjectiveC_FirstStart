@@ -41,14 +41,20 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
         NSLog(@"Factorial of number 15 is: %d", canculateFactorial(15));
         
-        Fraction *myFraction;
-        myFraction = [Fraction alloc];
-        myFraction = [myFraction init];
-        [myFraction setNumerator: 1];
+        Fraction *myFraction;                       // Define a new pointer of type Fraction
+        myFraction = [Fraction alloc];              // Allocate memory for a new object
+        myFraction = [myFraction init];             // Initialize a new object
+        [myFraction setNumerator: 1];               // Send a message with argument
         [myFraction setDenominator: 3];
         NSLog(@"The value of myFraction is:");
         [myFraction print];
         
+        Fraction *myNewFraction = [[Fraction alloc] init];
+        [myNewFraction setNumerator: 2];
+        [myNewFraction setDenominator: 5];
+        NSLog(@"The value of myNewFraction is:");
+        [myNewFraction print];
+        NSLog(@"The values are: %i, %i", [myNewFraction numerator], [myNewFraction denominator]);
     }
     return 0;
 }
