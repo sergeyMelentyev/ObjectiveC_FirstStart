@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
 #import "Calc.h"
+#import "Rectangle.h"
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
@@ -66,9 +67,15 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The final value is: %i", [newCalc accumulator]);
         [newCalc clear];
         NSLog(@"The final value is: %i", [newCalc accumulator]);
+        
+        Rectangle *myRectange = [[Rectangle alloc] init];
+        [myRectange setWidth: 27];
+        [myRectange setHeight: 33];
+        NSLog(@"The width is %i, the height is %i. Area is %i and perimeter is %i", [myRectange width], [myRectange height], [myRectange area], [myRectange perimeter]);
     }
     return 0;
 }
+
 
 
 

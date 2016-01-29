@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		808D38F61C5B5D81008333ED /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D38F51C5B5D81008333ED /* Calc.m */; };
+		808D38F91C5B62E7008333ED /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D38F81C5B62E7008333ED /* Rectangle.m */; };
 		80C692B81C50D240005E3C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692B71C50D240005E3C2C /* main.m */; };
 		80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C31C5102A9005E3C2C /* EnumDataType.m */; };
 		80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C51C5102D1005E3C2C /* StructDataType.m */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		808D38F41C5B5D81008333ED /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
 		808D38F51C5B5D81008333ED /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
+		808D38F71C5B62E7008333ED /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		808D38F81C5B62E7008333ED /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		80C692B41C50D240005E3C2C /* FirstCommandApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstCommandApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C692B71C50D240005E3C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80C692C11C50F6AA005E3C2C /* DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				80CBC6F91C576EFE0014D713 /* Fraction.m */,
 				808D38F41C5B5D81008333ED /* Calc.h */,
 				808D38F51C5B5D81008333ED /* Calc.m */,
+				808D38F71C5B62E7008333ED /* Rectangle.h */,
+				808D38F81C5B62E7008333ED /* Rectangle.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 			files = (
 				80CBC6FA1C576EFE0014D713 /* Fraction.m in Sources */,
 				80C692CC1C51277E005E3C2C /* ControllFlow.m in Sources */,
+				808D38F91C5B62E7008333ED /* Rectangle.m in Sources */,
 				80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */,
 				80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */,
 				808D38F61C5B5D81008333ED /* Calc.m in Sources */,
