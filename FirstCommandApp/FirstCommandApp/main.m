@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+#import "Calc.h"
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
@@ -55,9 +56,20 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The value of myNewFraction is:");
         [myNewFraction print];
         NSLog(@"The values are: %i, %i", [myNewFraction numerator], [myNewFraction denominator]);
+        
+        Calc *newCalc = [[Calc alloc] init];
+        [newCalc setAccumulator: 100];
+        [newCalc add: 20];
+        [newCalc subtract: 10];
+        [newCalc divide: 2];
+        [newCalc multiply: 2];
+        NSLog(@"The final value is: %i", [newCalc accumulator]);
+        [newCalc clear];
+        NSLog(@"The final value is: %i", [newCalc accumulator]);
     }
     return 0;
 }
+
 
 
 
