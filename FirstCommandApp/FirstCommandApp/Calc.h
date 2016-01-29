@@ -12,8 +12,17 @@
 -(void) setAccumulator: (int) value;
 -(void) clear;
 -(int) accumulator;
--(void) add: (int) value;
--(void) subtract: (int) value;
--(void) multiply: (int) value;
--(void) divide: (int) value;
+-(int) add: (int) value;
+-(int) subtract: (int) value;
+-(int) multiply: (int) value;
+-(int) divide: (int) value;
+-(int) changeSign;
+-(double) reciprocal;
+-(double) xSquared;
+-(int) memoryNumber;
+-(int) memoryClear;
+-(int) memoryStore: (int) value;
+-(int) memoryRecall;
+-(int) memoryAdd: (int) value;
+-(int) memorySubtract: (int) value;
 @end

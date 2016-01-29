@@ -60,13 +60,12 @@ int main(int argc, const char * argv[]) {
         
         Calc *newCalc = [[Calc alloc] init];
         [newCalc setAccumulator: 100];
-        [newCalc add: 20];
-        [newCalc subtract: 10];
-        [newCalc divide: 2];
-        [newCalc multiply: 2];
-        NSLog(@"The final value is: %i", [newCalc accumulator]);
-        [newCalc clear];
-        NSLog(@"The final value is: %i", [newCalc accumulator]);
+        [newCalc memoryStore: [newCalc accumulator]];
+        NSLog(@"Value in memory is: %i", [newCalc memoryRecall]);
+        [newCalc memoryAdd: 20];
+        [newCalc memorySubtract: 10];
+        NSLog(@"Value in memory is: %i", [newCalc memoryRecall]);
+        NSLog(@"Current value is: %i", [newCalc accumulator]);
         
         Rectangle *myRectange = [[Rectangle alloc] init];
         [myRectange setWidth: 27];
