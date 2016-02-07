@@ -33,9 +33,11 @@
 }
 
 // Add a fraction to the receiver
--(void) add: (Fraction *) f {
-    numerator = numerator * f.denominator + denominator * f.numerator;
-    denominator = denominator * f.denominator;
+-(Fraction *) add: (Fraction *) f {
+    Fraction *result = [[Fraction alloc] init];
+    result.numerator = numerator * f.denominator + denominator * f.numerator;
+    result.denominator = denominator = denominator * f.denominator;
+    return result;
 }
 
 @end

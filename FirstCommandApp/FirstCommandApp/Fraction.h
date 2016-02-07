@@ -20,5 +20,5 @@
 -(double) convertToNum;
 
 // Add one object to another
--(void) add: (Fraction *) f;
+-(Fraction *) add: (Fraction *) f;
 @end

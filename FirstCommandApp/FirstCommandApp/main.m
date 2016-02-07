@@ -59,13 +59,14 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The value of myNewFraction is:");
         [myNewFraction print];
         NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
-        [myNewFraction setTo: 3 over: 6];
+        [myNewFraction setTo: 1 over: 3];
         NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
         
-        // Add two fractions
-        [myFraction add: myNewFraction];
+        // Create a new fraction to store the result of sum
+        Fraction *resultFraction;
+        resultFraction = [myFraction add: myNewFraction];
         NSLog(@"Add two fractions, the result is:");
-        [myNewFraction print];
+        [resultFraction print];
         
         Calc *newCalc = [[Calc alloc] init];
         [newCalc setAccumulator: 100];
