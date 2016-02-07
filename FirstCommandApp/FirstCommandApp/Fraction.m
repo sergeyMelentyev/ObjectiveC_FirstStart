@@ -9,27 +9,21 @@
 #import "Fraction.h"
 
 // This section contains the actial code that implements the methods
-@implementation Fraction {
-// Describe type of the data that instance variables will use
-    int numerator;
-    int denominator;
-}
+@implementation Fraction
+
+// Automatic generation of setter and getter methods
+@synthesize numerator, denominator;
 
 // Methods definitions
--(int) numerator {
-    return numerator;
-}
--(int) denominator {
-    return denominator;
-}
 -(void) print {
     NSLog(@"%i/%i", numerator, denominator);
 }
--(void) setNumerator: (int) n {
-    numerator = n;
-}
--(void) setDenominator: (int) d {
-    denominator = d;
+-(double) convertToNum {
+    if (denominator != 0){
+        return (double) numerator / denominator;
+    } else {
+        return NAN;
+    }
 }
 
 @end

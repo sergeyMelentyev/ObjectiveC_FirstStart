@@ -11,10 +11,10 @@
 // This section describes the class and methods
 @interface Fraction : NSObject
 
+// Use directive to identify properties
+@property int numerator, denominator;
+
 // Instance (object) methods
 -(void) print;
--(int) numerator;
--(int) denominator;
--(void) setNumerator: (int) n;
--(void) setDenominator: (int) d;
+-(double) convertToNum;
 @end
