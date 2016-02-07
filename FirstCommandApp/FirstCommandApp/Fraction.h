@@ -16,5 +16,9 @@
 
 // Instance (object) methods
 -(void) print;
+-(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
+
+// Add one object to another
+-(void) add: (Fraction *) f;
 @end

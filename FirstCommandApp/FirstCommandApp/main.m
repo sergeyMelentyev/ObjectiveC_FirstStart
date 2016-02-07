@@ -43,6 +43,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Ram address of the pointer is %p and its value is %d", sndValPoint, *sndValPoint);
         NSLog(@"Factorial of number 15 is: %d", canculateFactorial(15));
         
+        // Classic style with messages
         Fraction *myFraction;                       // Define a new pointer of type Fraction
         myFraction = [Fraction alloc];              // Allocate memory for a new object
         myFraction = [myFraction init];             // Initialize a new object
@@ -51,12 +52,20 @@ int main(int argc, const char * argv[]) {
         NSLog(@"The value of myFraction is:");
         [myFraction print];
         
+        // Style with dot notation for getter and setter methods
         Fraction *myNewFraction = [[Fraction alloc] init];
-        [myNewFraction setNumerator: 2];
-        [myNewFraction setDenominator: 5];
+        myNewFraction.numerator = 2;
+        myNewFraction.denominator = 5;
         NSLog(@"The value of myNewFraction is:");
         [myNewFraction print];
-        NSLog(@"The values are: %i, %i", [myNewFraction numerator], [myNewFraction denominator]);
+        NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
+        [myNewFraction setTo: 3 over: 6];
+        NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
+        
+        // Add two fractions
+        [myFraction add: myNewFraction];
+        NSLog(@"Add two fractions, the result is:");
+        [myNewFraction print];
         
         Calc *newCalc = [[Calc alloc] init];
         [newCalc setAccumulator: 100];
