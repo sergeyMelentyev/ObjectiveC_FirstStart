@@ -21,4 +21,9 @@
 
 // Add one object to another
 -(Fraction *) add: (Fraction *) f;
+-(void) setNumerator: (int) n;
+-(void) setDenominator: (int) d;
+-(int) numerator;
+-(int) denominator;
+-(double) convertToNum;
 @end
