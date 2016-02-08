@@ -29,21 +29,6 @@
     else
         return NAN;
 }
-@end
-
-
-
-
-
-<<<<<<< Updated upstream
--(double) convertToNum {
-    if (denominator != 0){
-        return (double) numerator / denominator;
-    } else {
-        return NAN;
-    }
-}
-
 // Add a fraction to the receiver
 -(Fraction *) add: (Fraction *) f {
     Fraction *result = [[Fraction alloc] init];
@@ -51,11 +36,8 @@
     result.denominator = denominator = denominator * f.denominator;
     return result;
 }
-
 @end
 
 
 
 
-=======
->>>>>>> Stashed changes

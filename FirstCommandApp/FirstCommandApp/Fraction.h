@@ -25,5 +25,4 @@
 -(void) setDenominator: (int) d;
 -(int) numerator;
 -(int) denominator;
--(double) convertToNum;
 @end

@@ -58,7 +58,6 @@ int main(int argc, const char * argv[]) {
         myNewFraction.denominator = 5;
         NSLog(@"The value of myNewFraction is:");
         [myNewFraction print];
-<<<<<<< Updated upstream
         NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
         [myNewFraction setTo: 1 over: 3];
         NSLog(@"The values are: %i, %i", myNewFraction.numerator, myNewFraction.denominator);
@@ -68,10 +67,8 @@ int main(int argc, const char * argv[]) {
         resultFraction = [myFraction add: myNewFraction];
         NSLog(@"Add two fractions, the result is:");
         [resultFraction print];
-=======
         NSLog(@"The values are: %i, %i", [myNewFraction numerator], [myNewFraction denominator]);
         NSLog(@"Converted to number: %g", [myNewFraction convertToNum]);
->>>>>>> Stashed changes
         
         Calc *newCalc = [[Calc alloc] init];
         [newCalc setAccumulator: 100];
