@@ -11,6 +11,7 @@
 #import "Calc.h"
 #import "Rectangle.h"
 #import "Square.h"
+#import "XYPoint.h"
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
@@ -81,12 +82,18 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Current value is: %i", [newCalc accumulator]);
         
         Rectangle *myRectange = [[Rectangle alloc] init];
+        XYPoint * myPoint = [[XYPoint alloc] init];
+        [myPoint setX: 100 andY: 200];
         [myRectange setWidth: 5 andHeight: 8];
-        NSLog(@"Width is %i, height is %i. Area is %i and perimeter is %i", myRectange.width, myRectange.height, [myRectange area], [myRectange perimeter]);
+        myRectange.origin = myPoint;
+        NSLog(@"Rectangle w = %i, h = %i", myRectange.width, myRectange.height);
+        NSLog(@"Origin at (%i, %i)", myRectange.origin.x, myRectange.origin.y);
+        NSLog(@"Area = %i, Perometer = %i", myRectange.area, myRectange.perimeter);
         
         Square *mySquare = [[Square alloc] init];
         [mySquare setSide: 5];
         NSLog(@"Width and Height are %i. Area is %i and perimeter is %i", mySquare.side, [mySquare area], [mySquare perimeter]);
+        
     }
     return 0;
 }
