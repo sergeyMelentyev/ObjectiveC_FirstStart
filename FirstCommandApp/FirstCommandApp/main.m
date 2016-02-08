@@ -10,6 +10,7 @@
 #import "Fraction.h"
 #import "Calc.h"
 #import "Rectangle.h"
+#import "Square.h"
 #import "DataTypes.h"
 #import "StructDataType.m"
 #import "EnumDataType.m"
@@ -80,9 +81,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Current value is: %i", [newCalc accumulator]);
         
         Rectangle *myRectange = [[Rectangle alloc] init];
-        [myRectange setWidth: 27];
-        [myRectange setHeight: 33];
-        NSLog(@"The width is %i, the height is %i. Area is %i and perimeter is %i", [myRectange width], [myRectange height], [myRectange area], [myRectange perimeter]);
+        [myRectange setWidth: 5 andHeight: 8];
+        NSLog(@"Width is %i, height is %i. Area is %i and perimeter is %i", myRectange.width, myRectange.height, [myRectange area], [myRectange perimeter]);
+        
+        Square *mySquare = [[Square alloc] init];
+        [mySquare setSide: 5];
+        NSLog(@"Width and Height are %i. Area is %i and perimeter is %i", mySquare.side, [mySquare area], [mySquare perimeter]);
     }
     return 0;
 }
