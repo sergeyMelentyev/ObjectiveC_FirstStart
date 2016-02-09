@@ -86,13 +86,13 @@ int main(int argc, const char * argv[]) {
         [myPoint setX: 100 andY: 200];
         [myRectange setWidth: 5 andHeight: 8];
         myRectange.origin = myPoint;
-        NSLog(@"Rectangle w = %i, h = %i", myRectange.width, myRectange.height);
-        NSLog(@"Origin at (%i, %i)", myRectange.origin.x, myRectange.origin.y);
-        NSLog(@"Area = %i, Perometer = %i", myRectange.area, myRectange.perimeter);
+        NSLog(@"Rectangle w = %f, h = %f", myRectange.width, myRectange.height);
+        NSLog(@"Origin at (%f, %f)", myRectange.origin.x, myRectange.origin.y);
+        NSLog(@"Area = %f, Perometer = %f", myRectange.area, myRectange.perimeter);
         
         Square *mySquare = [[Square alloc] init];
         [mySquare setSide: 5];
-        NSLog(@"Width and Height are %i. Area is %i and perimeter is %i", mySquare.side, [mySquare area], [mySquare perimeter]);
+        NSLog(@"Width and Height are %f. Area is %f and perimeter is %f", mySquare.side, [mySquare area], [mySquare perimeter]);
         
     }
     return 0;

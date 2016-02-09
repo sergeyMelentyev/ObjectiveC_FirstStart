@@ -12,7 +12,7 @@
 
 @synthesize x, y;
 
--(void) setX: (int) xVal andY: (int) yVal {
+-(void) setX: (float) xVal andY: (float) yVal {
     x = xVal;
     y = yVal;
 }

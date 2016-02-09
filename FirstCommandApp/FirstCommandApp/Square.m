@@ -9,10 +9,10 @@
 #import "Square.h"
 
 @implementation Square: Rectangle
--(void) setSide: (int) s {
+-(void) setSide: (float) s {
     [self setWidth: s andHeight: s];
 }
--(int) side {
+-(float) side {
     return self.width;
 }
 @end

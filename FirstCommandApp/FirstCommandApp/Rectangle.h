@@ -13,12 +13,12 @@
 
 @interface Rectangle : NSObject
 
-@property int width, height;
+@property float width, height;
 
 -(XYPoint *) origin;
 -(void) setOrigin: (XYPoint *) pt;
--(void) setWidth: (int) w andHeight: (int) h;
--(int) area;
--(int) perimeter;
+-(void) setWidth: (float) w andHeight: (float) h;
+-(float) area;
+-(float) perimeter;
 
 @end
