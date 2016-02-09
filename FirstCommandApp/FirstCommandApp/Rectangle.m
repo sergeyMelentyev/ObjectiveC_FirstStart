@@ -8,6 +8,7 @@
 
 #import "Rectangle.h"
 
+// Define an instance variable or use @synthesize accessor method
 @implementation Rectangle {
     XYPoint *origin;
 }
