@@ -111,11 +111,22 @@ int main(int argc, const char * argv[]) {
         compResult = [c1 add: c2];
         [compResult print];
         NSLog(@"\n");
-        
         [f1 print]; NSLog(@"         +"); [f2 print];
         NSLog(@"---------");
         fracResult = [f1 add: f2];
         [fracResult print];
+        
+        // Exception Handling
+        NSArray *myArray = [NSArray array];
+        @try {
+            [myArray objectAtIndex: 2];
+        }
+        @catch (NSException *exception) {
+            NSLog(@"Caught %@%@", exception.name, exception.reason);
+        }
+        NSLog(@"Execution continues");
+        
+        
     }
     return 0;
 }
