@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		80250A401C68909C00701FC4 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 80250A3F1C68909C00701FC4 /* Square.m */; };
 		80250A431C6894CB00701FC4 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80250A421C6894CB00701FC4 /* XYPoint.m */; };
+		804A927E1C6E080800C51D48 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 804A927D1C6E080800C51D48 /* Fraction+MathOps.m */; };
 		8066B12E1C69E54E00C99C8A /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8066B12D1C69E54E00C99C8A /* Complex.m */; };
 		808D38F61C5B5D81008333ED /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D38F51C5B5D81008333ED /* Calc.m */; };
 		808D38F91C5B62E7008333ED /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D38F81C5B62E7008333ED /* Rectangle.m */; };
@@ -38,6 +39,8 @@
 		80250A3F1C68909C00701FC4 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		80250A411C6894CB00701FC4 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
 		80250A421C6894CB00701FC4 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		804A927C1C6E080800C51D48 /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
+		804A927D1C6E080800C51D48 /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
 		8066B12C1C69E54E00C99C8A /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
 		8066B12D1C69E54E00C99C8A /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
 		808D38F41C5B5D81008333ED /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 			children = (
 				80CBC6F81C576EFE0014D713 /* Fraction.h */,
 				80CBC6F91C576EFE0014D713 /* Fraction.m */,
+				804A927C1C6E080800C51D48 /* Fraction+MathOps.h */,
+				804A927D1C6E080800C51D48 /* Fraction+MathOps.m */,
 				808D38F41C5B5D81008333ED /* Calc.h */,
 				808D38F51C5B5D81008333ED /* Calc.m */,
 				808D38F71C5B62E7008333ED /* Rectangle.h */,
@@ -212,6 +217,7 @@
 				8066B12E1C69E54E00C99C8A /* Complex.m in Sources */,
 				80C692C41C5102A9005E3C2C /* EnumDataType.m in Sources */,
 				80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */,
+				804A927E1C6E080800C51D48 /* Fraction+MathOps.m in Sources */,
 				808D38F61C5B5D81008333ED /* Calc.m in Sources */,
 				80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */,
 				80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */,

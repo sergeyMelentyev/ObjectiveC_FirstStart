@@ -42,16 +42,5 @@ static int gCount;
     else
         return NAN;
 }
-// Add a fraction to the receiver
--(Fraction *) add: (Fraction *) f {
-    Fraction *result = [[Fraction alloc] init];
-    result.numerator = numerator * f.denominator + denominator * f.numerator;
-    result.denominator = denominator = denominator * f.denominator;
-    return result;
-}
 
 @end
-
-
-
-

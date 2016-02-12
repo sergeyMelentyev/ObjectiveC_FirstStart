@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+#import "Fraction+MathOps.h"
 #import "Calc.h"
 #import "Rectangle.h"
 #import "Square.h"

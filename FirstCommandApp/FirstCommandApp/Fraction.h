@@ -20,13 +20,12 @@
 -(double) convertToNum;
 
 // Add one object to another
--(Fraction *) add: (Fraction *) f;
 -(void) setNumerator: (int) n;
 -(void) setDenominator: (int) d;
 -(int) numerator;
 -(int) denominator;
 
-// Class methids
+// Class methods
 +(Fraction *) allocF;
 +(int) count;
 
