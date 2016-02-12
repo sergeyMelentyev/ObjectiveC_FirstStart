@@ -18,6 +18,9 @@
 #import "Complex.h"
 #define ANYMACRONAME 10                                 // preprocessor macros
 
+// Typedef new custom datatype name better readability
+typedef enum { one, two, three } sides;
+
 int main(int argc, const char * argv[]) {
     
     // char = 8 bits = 1 byte
@@ -33,13 +36,14 @@ int main(int argc, const char * argv[]) {
     
     // Enumerated data type
     enum directionEnum { up, down, left = 10, right };  // compiler assigns 0, 1, 10, 11
-    enum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
-    enum month thisMonth;
-    thisMonth = feb;
-    NSLog(@"Enumerated data type. Compiler assigns February = %i", thisMonth);
+    enum directionEnum thisEnum;
+    thisEnum = up;
+    // The same as shorthand version
+    enum { east, west, south, north } directionNewEnum;
+    directionNewEnum = south;
     
     // Type casting
-    float z = ((float)pointA.x / (float)pointB.x);
+    float z = ((float) pointA.x / (float) pointB.x);
     
     // Pointer data type
     char frstValPoint = 10;
