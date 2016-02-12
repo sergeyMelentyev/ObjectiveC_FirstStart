@@ -31,7 +31,15 @@ int main(int argc, const char * argv[]) {
     pointA.x = 1;                                       // declare variables x inside each struct
     pointB.x = 3;
     
-    float z = ((float)pointA.x / (float)pointB.x);      // type casting
+    // Enumerated data type
+    enum directionEnum { up, down, left = 10, right };  // compiler assigns 0, 1, 10, 11
+    enum month { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+    enum month thisMonth;
+    thisMonth = feb;
+    NSLog(@"Enumerated data type. Compiler assigns February = %i", thisMonth);
+    
+    // Type casting
+    float z = ((float)pointA.x / (float)pointB.x);
     
     // Pointer data type
     char frstValPoint = 10;
@@ -126,7 +134,13 @@ int main(int argc, const char * argv[]) {
         }
         NSLog(@"Execution continues");
         
-        
+        // External scope
+        Fraction *a, *b, *c;
+        NSLog(@"Fractions allocated: %i", [Fraction count]);
+        a = [[Fraction allocF] init];
+        b = [[Fraction allocF] init];
+        c = [[Fraction allocF] init];
+        NSLog(@"Fractions allocated: %i", [Fraction count]);
     }
     return 0;
 }

@@ -25,4 +25,9 @@
 -(void) setDenominator: (int) d;
 -(int) numerator;
 -(int) denominator;
+
+// Class methids
++(Fraction *) allocF;
++(int) count;
+
 @end
