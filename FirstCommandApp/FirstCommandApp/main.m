@@ -17,6 +17,7 @@
 #import "StructDataType.m"
 #import "EnumDataType.m"
 #import "Complex.h"
+
 #define ANYMACRONAME 10                                 // preprocessor macros
 
 // Typedef new custom datatype name better readability
@@ -39,7 +40,7 @@ int main(int argc, const char * argv[]) {
     enum directionEnum { up, down, left = 10, right };  // compiler assigns 0, 1, 10, 11
     enum directionEnum thisEnum;
     thisEnum = up;
-    // The same as shorthand version
+    // The same with shorthand notation
     enum { east, west, south, north } directionNewEnum;
     directionNewEnum = south;
     

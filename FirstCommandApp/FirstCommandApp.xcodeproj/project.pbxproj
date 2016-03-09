@@ -18,7 +18,6 @@
 		80C692C61C5102D1005E3C2C /* StructDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C51C5102D1005E3C2C /* StructDataType.m */; };
 		80C692C81C5109B1005E3C2C /* PointerDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C71C5109B1005E3C2C /* PointerDataType.m */; };
 		80C692CA1C511BF6005E3C2C /* FunctionDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692C91C511BF6005E3C2C /* FunctionDataType.m */; };
-		80C692CC1C51277E005E3C2C /* ControllFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C692CB1C51277E005E3C2C /* ControllFlow.m */; };
 		80CBC6FA1C576EFE0014D713 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CBC6F91C576EFE0014D713 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		80C692C51C5102D1005E3C2C /* StructDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructDataType.m; sourceTree = "<group>"; };
 		80C692C71C5109B1005E3C2C /* PointerDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerDataType.m; sourceTree = "<group>"; };
 		80C692C91C511BF6005E3C2C /* FunctionDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionDataType.m; sourceTree = "<group>"; };
-		80C692CB1C51277E005E3C2C /* ControllFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllFlow.m; sourceTree = "<group>"; };
 		80CBC6F81C576EFE0014D713 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		80CBC6F91C576EFE0014D713 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,13 +68,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8014A76B1C5219C2003BB4C9 /* Collections */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Collections;
-			sourceTree = "<group>";
-		};
 		8066B12B1C69E52A00C99C8A /* Polimorphism */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +100,6 @@
 				80CBC6F41C57659A0014D713 /* Classes */,
 				80C692C01C50F675005E3C2C /* Headers */,
 				80C692C21C50F6CB005E3C2C /* DataTypes */,
-				8014A76B1C5219C2003BB4C9 /* Collections */,
 				80C692B71C50D240005E3C2C /* main.m */,
 			);
 			path = FirstCommandApp;
@@ -130,7 +120,6 @@
 				80C692C51C5102D1005E3C2C /* StructDataType.m */,
 				80C692C71C5109B1005E3C2C /* PointerDataType.m */,
 				80C692C91C511BF6005E3C2C /* FunctionDataType.m */,
-				80C692CB1C51277E005E3C2C /* ControllFlow.m */,
 			);
 			name = DataTypes;
 			sourceTree = "<group>";
@@ -211,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CBC6FA1C576EFE0014D713 /* Fraction.m in Sources */,
-				80C692CC1C51277E005E3C2C /* ControllFlow.m in Sources */,
 				808D38F91C5B62E7008333ED /* Rectangle.m in Sources */,
 				80250A431C6894CB00701FC4 /* XYPoint.m in Sources */,
 				8066B12E1C69E54E00C99C8A /* Complex.m in Sources */,

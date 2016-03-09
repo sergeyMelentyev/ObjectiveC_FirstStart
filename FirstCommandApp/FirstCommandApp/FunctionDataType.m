@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 // Declare a function "canculateFactorial" that will return an int, and will take int as an argument
-int canculateFactorial(int number){
+int canculateFactorial (int number) {
     int result = 1;
     for (int i = 1; i <= number; ++i) {
         result = result * i;

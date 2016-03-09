@@ -8,7 +8,7 @@
 
 #import "Fraction.h"
 
-// Categories (extend) existing class with new methods whithot creating a new one
+// Categories (extend) existing class with new methods withou t creating a new one
 @interface Fraction (MathOps)
 
 -(Fraction *) add: (Fraction *) f;
